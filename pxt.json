@@ -1,8 +1,10 @@
 {
-    "name": "RealRx",
+    "name": "Robotics Project 2023",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1"
     },
     "files": [
         "main.blocks",
@@ -16,7 +18,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.41",
+        "target": "1.12.46",
         "targetId": "arcade"
     },
     "supportedTargets": [
